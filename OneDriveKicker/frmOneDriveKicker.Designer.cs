@@ -260,23 +260,23 @@
             // 
             // lblDelayUpdateDescp
             // 
-            this.lblDelayUpdateDescp.AutoSize = true;
             this.lblDelayUpdateDescp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.lblDelayUpdateDescp.Location = new System.Drawing.Point(225, 200);
+            this.lblDelayUpdateDescp.Location = new System.Drawing.Point(225, 194);
             this.lblDelayUpdateDescp.Name = "lblDelayUpdateDescp";
-            this.lblDelayUpdateDescp.Size = new System.Drawing.Size(262, 20);
+            this.lblDelayUpdateDescp.Size = new System.Drawing.Size(292, 32);
             this.lblDelayUpdateDescp.TabIndex = 12;
             this.lblDelayUpdateDescp.Text = "Wait this long after a detected change";
+            this.lblDelayUpdateDescp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // lblDelayOverrideDescp
             // 
-            this.lblDelayOverrideDescp.AutoSize = true;
             this.lblDelayOverrideDescp.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.lblDelayOverrideDescp.Location = new System.Drawing.Point(225, 255);
+            this.lblDelayOverrideDescp.Location = new System.Drawing.Point(225, 250);
             this.lblDelayOverrideDescp.Name = "lblDelayOverrideDescp";
-            this.lblDelayOverrideDescp.Size = new System.Drawing.Size(176, 20);
+            this.lblDelayOverrideDescp.Size = new System.Drawing.Size(292, 32);
             this.lblDelayOverrideDescp.TabIndex = 13;
             this.lblDelayOverrideDescp.Text = "Alway Kick after this time";
+            this.lblDelayOverrideDescp.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // frmOneDriveKicker
             // 

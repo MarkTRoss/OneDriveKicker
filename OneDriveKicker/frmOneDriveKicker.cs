@@ -17,6 +17,7 @@ namespace OneDriveKicker
             Settings.ReadFile();
             this.Text = Settings.AppName;
             this.Update();
+            lblCopyright.Visible = Settings.DisplayCopyright;
 
             txtWatchFolder.Text = Settings.WatchFolder;
             chkWatchFolder_SubFolders.Checked = Settings.WatchFolder_IncludeSubFolders;

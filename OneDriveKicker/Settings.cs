@@ -18,6 +18,7 @@
         /// Run anyway delay in seconds
         /// </summary>
         public static int DelayOverride = 600;
+        public static bool DisplayCopyright = true;
 
 
 
@@ -46,6 +47,7 @@
                             case "OneDriveFolder": OneDriveFolder = str1; break;
                             case "Delay": Delay = int1; break;
                             case "DelayOverride": DelayOverride = int1; break;
+                            case "DisplayCopyright": DisplayCopyright = (str1 == "True"); break;
                         }
 
                     }
@@ -76,6 +78,7 @@
                 sw.WriteLine("OneDriveFolder=" + OneDriveFolder);
                 sw.WriteLine("Delay=" + Delay);
                 sw.WriteLine("DelayOverride=" + DelayOverride);
+                sw.WriteLine("DisplayCopyright=" + DisplayCopyright);
                 sw.Close();
                 return true;
             }
